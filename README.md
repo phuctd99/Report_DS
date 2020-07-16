@@ -38,4 +38,9 @@ Số lần bị trả trễ hạn sẽ được lưu lại trên báo cáo tín 
     - Foreclose: Đây là khi không trả nợ được nhà, lender bắt buộc người mượn nợ phải bán nhà để trả nợ
     - Bankruptcy: khi một người lâm vào hoàn cảnh nợ nần chồng chất không có khả năng thanh toán, họ có thể khai phá sản để được xoá nợ và làm lại từ đầu.
 Những vết đen này ảnh hưởng trầm trọng đến báo cáo tín dụng, bởi vì không chỉ nó làm giảm điểm tín dụng, mà khi lender thấy trong báo cáo tín dụng còn những món nợ như thế này họ cũng ngần ngại cho vay. Thêm vào đó, nếu như những món nợ charge off hay collection được trả off xong rồi thì nó vẫn còn được lưu lại trên báo cáo tín dụng trong vòng 7 năm kể từ ngày được trả.
+
+<p align="center">
+  <img src="fico.png">
+</p>
+
  ***
