@@ -1,7 +1,7 @@
 # Xây dựng mô hình chấm điểm tín dụng - Viettel Digital Service
 ***
 ## Problem: 
-- Hiện nay, vay tiêu dùng là một trong những dịch vụ được nhiều ngân hàng và các tổ chức tài chính khuyến khích khách hàng tham gia nhất bởi quy mô mỗi khoản vay tiêu dùng nhỏ nhưng số lượng các khoản vay tiêu dùng lại lớn, lãi suất cao và ổn định. Song song với sự phát triển của thị trường tài chính tiêu dùng là sự ra đời của nhiều dịch vụ chấm điểm tín dụng cá nhân.\
+- Hiện nay, vay tiêu dùng là một trong những dịch vụ được nhiều ngân hàng và các tổ chức tài chính khuyến khích khách hàng tham gia nhất bởi quy mô mỗi khoản vay tiêu dùng nhỏ nhưng số lượng các khoản vay tiêu dùng lại lớn, lãi suất cao và ổn định. Song song với sự phát triển của thị trường tài chính tiêu dùng là sự ra đời của nhiều dịch vụ chấm điểm tín dụng cá nhân.
 - Nhiều tổ chức tài chính sử dụng các mô hình chấm điểm tín dụng để giảm rủi ro trong đánh giá tín dụng cũng như trong việc cấp và giám sát tín dụng. Các mô hình chấm điểm tín dụng dựa trên các lý thuyết thống kê cổ điển được sử dụng rộng rãi. Tuy nhiên, các mô hình này không dùng được khi có số lượng lớn dữ liệu đầu vào. Điều này ảnh hưởng đến tính chính xác của dự báo dựa trên mô hình.\
 => Học máy (machine learning) có thể được sử dụng trong việc chấm điểm tín dụng để đạt được độ chính xác cao hơn từ việc phân tích số lượng lớn dữ liệu.
 ## Input:
