@@ -1,3 +1,31 @@
+# Xây dựng mô hình chấm điểm tín dụng - Viettel Digital Service
+***
+## Problem: 
+- Hiện nay, vay tiêu dùng là một trong những dịch vụ được nhiều ngân hàng và các tổ chức tài chính khuyến khích khách hàng tham gia nhất bởi quy mô mỗi khoản vay tiêu dùng nhỏ nhưng số lượng các khoản vay tiêu dùng lại lớn, lãi suất cao và ổn định. Song song với sự phát triển của thị trường tài chính tiêu dùng là sự ra đời của nhiều dịch vụ chấm điểm tín dụng cá nhân.\
+- Nhiều tổ chức tài chính sử dụng các mô hình chấm điểm tín dụng để giảm rủi ro trong đánh giá tín dụng cũng như trong việc cấp và giám sát tín dụng. Các mô hình chấm điểm tín dụng dựa trên các lý thuyết thống kê cổ điển được sử dụng rộng rãi. Tuy nhiên, các mô hình này không dùng được khi có số lượng lớn dữ liệu đầu vào. Điều này ảnh hưởng đến tính chính xác của dự báo dựa trên mô hình.\
+=> Học máy (machine learning) có thể được sử dụng trong việc chấm điểm tín dụng để đạt được độ chính xác cao hơn từ việc phân tích số lượng lớn dữ liệu.
+## Input:
+- **Dataset (.csv)**: Dữ liệu viễn thông với độ phủ lớn
+  - Thông tin cá nhân: tuổi, địa chỉ, chứng minh thư (đã được mã hóa).
+  - Địa danh: cơ quan làm việc, nơi phát sinh các giao dịch.
+  - Hành vi tiêu dùng: Cuộc gọi, tin nhắn.
+  - ...
+- Dữ liệu có sự chênh lệch về nhãn.
+## Output:
+- Tính xác suất cho gần 1 cho mỗi khách hàng => ánh xạ sang dải điểm [FICO](https://vietnambiz.vn/diem-fico-fico-score-la-gi-dac-diem-va-cach-tinh-20200402233034368.htm)
+- Trong đó:
+  - 0: Không xấu (độ tin cậy cao)
+  - 1: Xấu (độ tin cậy thấp)
+## Một số yêu cầu:
+- Xây dựng model dự đoán.
+- Xây dựng các features mới.
+- Visualize dữ liệu, kết quả.
+- ...
+## Metrics đánh giá: 
+- [Gini](https://en.wikipedia.org/wiki/Gini_coefficient)
+## Expect:
+- Mô hình tốt nhất.
+***
 # Tìm hiểu về credit score
 ***
 ## 1. Credit score là gì?
@@ -44,3 +72,7 @@ Những vết đen này ảnh hưởng trầm trọng đến báo cáo tín dụ
 </p>
 
  ***
+ ## 3.Một số bài toán liên quan:
+ - https://challenge.kalapa.vn/home#gioi-thieu
+ - https://techinsight.com.vn/fpt-ai-credit-scoring-giai-phap-cho-bai-toan-danh-gia-tin-dung-khach-hang/
+ - https://www.kaggle.com/willkoehrsen/start-here-a-gentle-introduction
